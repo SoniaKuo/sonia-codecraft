@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用 OpenClaw 打造我的 AI 旅行助手｜Sonia Codecraft</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="index.html#hero" class="logo">
+                <span class="logo-text">
+                    <span class="logo-title">Sonia Codecraft</span>
+                    <span class="logo-subtitle">一個 Vibe Coder 的數位遊牧日常</span>
+                </span>
+            </a>
+            <nav class="nav" id="mainNav">
+                <a href="index.html#about" class="nav-link">About</a>
+                <a href="index.html#projects" class="nav-link">Articles</a>
+                <a href="index.html#connect" class="nav-link">Contact</a>
+            </nav>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Article -->
+    <article class="article">
+        <div class="container">
+            <a href="index.html#projects" class="article-back">← 回到文章專區</a>
+            <div class="article-meta">
+                <span class="project-tag">AI 工具</span>
+                <span class="article-date">2026.02</span>
+            </div>
+            <h1 class="article-title">用 OpenClaw 打造我的 AI 旅行助手</h1>
+
+            <div class="article-body">
+                <p>每次出發旅行前，我最痛苦的環節就是排行程。Google 搜尋、部落格爬文、比價網站、地圖路線⋯⋯通常花三個小時以上，才能排出一個勉強滿意的行程。然後到了現場，一半以上都會改。</p>
+
+                <h2>我的需求很簡單</h2>
+                <p>我想要一個工具，能根據我的偏好快速產生行程建議。不用完美，但至少要有個起點讓我參考，然後我再自己微調。</p>
+                <p>所以我決定用 OpenClaw 來做一個旅行規劃助手。</p>
+
+                <h2>什麼是 OpenClaw？</h2>
+                <p>OpenClaw 是一個讓你可以快速打造 AI 應用的平台。你不需要寫後端程式碼，只需要設計好 prompt、定義好輸入輸出的格式，就可以建出一個有模有樣的 AI 工具。</p>
+
+                <h2>我的設計邏輯</h2>
+                <p>我把旅行助手設計成問答的形式。使用者輸入以下資訊：</p>
+                <ul>
+                    <li>目的地</li>
+                    <li>旅行天數</li>
+                    <li>旅行風格（悠閒/冒險/文青/美食）</li>
+                    <li>預算等級（省錢/中等/享受）</li>
+                    <li>特殊需求（素食、無障礙、帶小孩等）</li>
+                </ul>
+                <p>然後 AI 會根據這些條件，產出一份包含每日行程、推薦餐廳和交通建議的規劃表。</p>
+
+                <h2>實際效果</h2>
+                <p>老實說，AI 產出的行程不是每次都完美。有時候會推薦已經關門的店，有時候交通時間估算不太準確。但作為一個「起點」，它真的省了我很多時間。</p>
+                <p>我現在的流程是：先讓 AI 產一版，再根據自己的經驗和最新資訊微調。原本要花三小時的事，現在大概 30 分鐘就能搞定。</p>
+
+                <h2>學到的事</h2>
+                <p>做這個專案讓我體會到，AI 工具的價值在於「自動化那些重複且耗時的工作」。行程規劃的核心還是人的判斷，但前期的資料收集和初步整理，交給 AI 做其實非常合理。</p>
+                <p>下一步，我想加入即時匯率計算和天氣預報的功能。讓這個小工具變得更實用。</p>
+            </div>
+        </div>
+    </article>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-simple">
+                <span class="footer-name">Sonia Codecraft</span>
+                <span class="footer-copy">© 2026</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

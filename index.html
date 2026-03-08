@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sonia — Data analyst, digital nomad, and creator. Building clean digital experiences with data logic, creative vision, and AI tools.">
+    <meta name="author" content="Sonia">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Sonia Codecraft｜一個 Vibe Coder 的數位遊牧日常">
+    <meta property="og:description" content="Building clean digital experiences with data logic, creative vision, and AI tools.">
+    <meta property="og:locale" content="en_US">
+
+    <title>Sonia Codecraft｜一個 Vibe Coder 的數位遊牧日常</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="#hero" class="logo">
+                <span class="logo-text">
+                    <span class="logo-title">Sonia Codecraft</span>
+                    <span class="logo-subtitle">一個 Vibe Coder 的數位遊牧日常</span>
+                </span>
+            </a>
+            <nav class="nav" id="mainNav">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Articles</a>
+                <a href="#connect" class="nav-link">Contact</a>
+            </nav>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <p class="hero-greeting">哈囉，我是</p>
+            <h1 class="hero-name">Sonia<span class="hero-dot">.</span></h1>
+            <p class="hero-description">我沒什麼特別的，就是個上班很累的社畜，但我幸運地是個數位遊牧者，平常沒事也會玩玩 AI。總之，這是一個記錄我跨界探索、生活碎片和嚮往用科技優化生活的筆記專區。</p>
+            <a href="#projects" class="hero-cta">翻閱我的生活筆記 →</a>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-heading">那些關於我，關於正在發生的改變。</h2>
+            <div class="about-layout">
+                <div class="about-carousel" id="aboutCarousel">
+                    <div class="about-carousel-track" id="aboutCarouselTrack">
+                        <!-- 替換為你自己的遊牧照片 -->
+                        <div class="about-carousel-slide">
+                            <img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?w=600&h=600&fit=crop" alt="咖啡廳工作">
+                            <span class="about-carousel-caption">在某個城市的咖啡廳</span>
+                        </div>
+                        <div class="about-carousel-slide">
+                            <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=600&h=600&fit=crop" alt="旅途風景">
+                            <span class="about-carousel-caption">路上的風景</span>
+                        </div>
+                        <div class="about-carousel-slide">
+                            <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=600&h=600&fit=crop" alt="遠端工作">
+                            <span class="about-carousel-caption">邊旅行邊工作的日常</span>
+                        </div>
+                    </div>
+                    <div class="about-carousel-dots" id="aboutCarouselDots">
+                        <span class="about-carousel-dot active" data-index="0"></span>
+                        <span class="about-carousel-dot" data-index="1"></span>
+                        <span class="about-carousel-dot" data-index="2"></span>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <p>你可能會看到我帶著筆電，在不同的城市與咖啡廳裡切換；但在那些「遊牧」的濾鏡背後，其實是一個時常感到焦慮的數據分析師。</p>
+                    <p>加入數位遊牧的行列後，我體會到了自由的代價。從被困在辦公桌前，到現在能稍微擁有移動的餘裕，這中間並不是什麼華麗的轉身，而是無數個改變、無數個恐懼卻仍然踏出去的勇氣。</p>
+                    <p>但我太渴望拿回生活的主導權、太想得到真正的自由。這個網站就是我沿途的筆記本。紀錄我如何用一點一滴的實作，把對生活的嚮往，轉化為真實的數位資產。</p>
+                    <p>但老實說，我的故事怎麼樣對你並不重要，但如果你也正在為了改變生活而默默努力著，希望這裡的一點靈感，能陪你一起在日常裡找到出口。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-heading">文章專區</h2>
+            <div class="projects-grid">
+                <a href="article-vibe-coding.html" class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8"/><path d="M12 17v4"/></svg>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag">Vibe Coding</span>
+                        <h3 class="project-title">我如何用 AI 從零打造這個網站</h3>
+                        <p class="project-desc">一個完全不會寫程式的人，如何靠 vibe coding 和 AI 工具，從零開始蓋出自己的 Landing Page。過程中的踩坑、驚喜與心得全記錄。</p>
+                        <span class="project-date">2026.03</span>
+                    </div>
+                </a>
+                <a href="article-openclaw.html" class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag">AI 工具</span>
+                        <h3 class="project-title">用 OpenClaw 打造我的 AI 旅行助手</h3>
+                        <p class="project-desc">出發前不想再花三小時爬文排行程。我用 OpenClaw 做了一個旅行規劃助手，輸入目的地和偏好，就能產出客製化行程建議。</p>
+                        <span class="project-date">2026.02</span>
+                    </div>
+                </a>
+                <a href="article-nomad.html" class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag">遊牧日記</span>
+                        <h3 class="project-title">數位遊牧第一年：自由的代價</h3>
+                        <p class="project-desc">離開辦公室的第一年，我以為會很浪漫，結果是焦慮、孤獨和不斷自我懷疑的循環。但我還是不想回去了。</p>
+                        <span class="project-date">2026.01</span>
+                    </div>
+                </a>
+                <a href="article-data-ai.html" class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12V7H5a2 2 0 0 1 0-4h14v4"/><path d="M3 5v14a2 2 0 0 0 2 2h16v-5"/><path d="M18 12a2 2 0 0 0 0 4h4v-4Z"/></svg>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-tag">數據分析</span>
+                        <h3 class="project-title">當數據分析師開始用 AI 寫報告</h3>
+                        <p class="project-desc">身為數據分析師，我每天都在跟數字打交道。但自從把 AI 融入工作流程後，我省下的不只是時間，還有腦力。</p>
+                        <span class="project-date">2025.12</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Connect -->
+    <section id="connect" class="section section-alt">
+        <div class="container">
+            <h2 class="section-heading">與我聯繫</h2>
+            <p class="connect-subtitle">如果你想要和我聯繫，可以透過下面的連結找到我：</p>
+            <div class="connect-links">
+                <a href="https://www.instagram.com/nomad.playbook" target="_blank" rel="noopener" class="connect-card">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+                    <div class="connect-card-text">
+                        <span class="connect-card-label">Instagram</span>
+                        <span class="connect-card-handle">@nomad.playbook</span>
+                    </div>
+                </a>
+                <a href="mailto:sonia7kuo@gmail.com" class="connect-card">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                    <div class="connect-card-text">
+                        <span class="connect-card-label">Email</span>
+                        <span class="connect-card-handle">sonia7kuo@gmail.com</span>
+                    </div>
+                </a>
+                <a href="#" class="connect-card connect-card-soon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/><path d="m10 15 5-3-5-3z"/></svg>
+                    <div class="connect-card-text">
+                        <span class="connect-card-label">YouTube</span>
+                        <span class="connect-card-handle">即將上線</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-simple">
+                <span class="footer-name">Sonia Codecraft</span>
+                <span class="footer-copy">© 2026</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
