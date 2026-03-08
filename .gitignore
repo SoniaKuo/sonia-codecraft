@@ -6,4 +6,7 @@ trivia.html
 article.html
 articles.js
 logo1.png
-images/
+images/.DS_Store
+images/articles/.DS_Store
+images/articles/Hero.png
+.DS_Store
